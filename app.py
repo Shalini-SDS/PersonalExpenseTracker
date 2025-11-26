@@ -360,7 +360,7 @@ def add_expense_page():
         amount = st.number_input(
             "Amount (₹)",
             min_value=0.01,
-            value=0.0,
+            value=0.01,
             step=1.0
         )
     
