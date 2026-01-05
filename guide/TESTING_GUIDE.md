@@ -202,6 +202,26 @@ View: 2 → 1 (Summary by Category)
 
 ---
 
+### Test 11: Receipt OCR & AI Auto-Categorization (Streamlit)
+
+**Objective**: Verify receipt upload extracts amount/date/description and AI suggests categories
+
+**Steps**:
+```
+1. Run: streamlit run app.py
+2. Open page: ➕ Add Expense
+3. Ensure: Sidebar toggles 'Enable AI features' and 'Enable OCR' are turned ON
+4. Upload a clear receipt image containing a total amount and date
+5. Click: 📸 Process Receipt
+6. Verify: Amount, Date, and Description fields are prefilled (or partially filled)
+7. Click: 🔍 Suggest Category and inspect suggestion
+8. Click: 💾 Save Expense and confirm it's saved with the chosen category
+```
+
+**Expected Result**: ✅ OCR reads amount/date (best-effort); AI suggests a reasonable category and expense is saved
+
+---
+
 ## 🎯 Sample Test Data
 
 ### Scenario 1: Student Budget Tracking

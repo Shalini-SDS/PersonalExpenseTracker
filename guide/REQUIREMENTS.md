@@ -194,6 +194,17 @@ These are ALWAYS available with Python and don't need installation.
   - Can be skipped if you don't need charts
   - Installation: `pip install matplotlib`
 
+- **pytesseract** + **Pillow**: OCR support for receipt uploads
+  - Required for: Receipt OCR (Upload and auto-extract amount/date/description)
+  - Installation: `pip install pytesseract Pillow`
+  - Note: The Tesseract OCR engine must be installed on your system separately:
+    - Windows: Download from https://github.com/tesseract-ocr/tesseract and add to PATH
+    - macOS: `brew install tesseract`
+    - Ubuntu/Debian: `sudo apt-get install tesseract-ocr`
+
+- **python-dateutil**: Flexible date parsing used to extract dates from receipts
+  - Installation: `pip install python-dateutil`
+
 ## Version Compatibility
 
 ### matplotlib Versions

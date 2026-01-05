@@ -5,5 +5,75 @@
         "date": "2025-11-26",
         "description": "No description",
         "timestamp": "2025-11-26T19:13:53.748163"
+    },
+    {
+        "amount": 150.0,
+        "category": "Food",
+        "date": "2024-11-26",
+        "description": "Lunch at restaurant",
+        "timestamp": "2024-11-26T12:30:00.000000"
+    },
+    {
+        "amount": 50.0,
+        "category": "Transport",
+        "date": "2024-11-26",
+        "description": "Taxi ride to office",
+        "timestamp": "2024-11-26T08:15:00.000000"
+    },
+    {
+        "amount": 800.0,
+        "category": "Shopping",
+        "date": "2024-11-25",
+        "description": "Winter clothes",
+        "timestamp": "2024-11-25T14:20:00.000000"
+    },
+    {
+        "amount": 100.0,
+        "category": "Entertainment",
+        "date": "2024-11-25",
+        "description": "Movie tickets",
+        "timestamp": "2024-11-25T19:00:00.000000"
+    },
+    {
+        "amount": 2500.0,
+        "category": "Bills",
+        "date": "2024-11-20",
+        "description": "Monthly electricity bill",
+        "timestamp": "2024-11-20T10:00:00.000000"
+    },
+    {
+        "amount": 200.0,
+        "category": "Health",
+        "date": "2024-11-20",
+        "description": "Doctor consultation",
+        "timestamp": "2024-11-20T15:30:00.000000"
+    },
+    {
+        "amount": 75.0,
+        "category": "Education",
+        "date": "2024-11-19",
+        "description": "Online course subscription",
+        "timestamp": "2024-11-19T09:00:00.000000"
+    },
+    {
+        "amount": 30.0,
+        "category": "Food",
+        "date": "2024-11-19",
+        "description": "Coffee and snacks",
+        "timestamp": "2024-11-19T11:00:00.000000"
+    },
+    {
+        "amount": 45.0,
+        "category": "Transport",
+        "date": "2024-11-19",
+        "description": "Bus pass",
+        "timestamp": "2024-11-19T08:00:00.000000"
+    },
+    {
+        "amount": 120.0,
+        "category": "Entertainment",
+        "date": "2024-11-18",
+        "description": "Concert tickets",
+        "timestamp": "2024-11-18T20:00:00.000000"
     }
 ]

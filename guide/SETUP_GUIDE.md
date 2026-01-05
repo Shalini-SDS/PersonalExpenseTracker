@@ -44,7 +44,7 @@ python3 --version
 #### Required
 - None! The program uses only Python standard library by default.
 
-#### Optional (For Charts)
+#### Optional (For Charts & OCR)
 ```bash
 pip install matplotlib
 ```
@@ -58,6 +58,13 @@ pip install matplotlib
 ```bash
 pip3 install matplotlib
 ```
+
+**OCR (Receipt Upload)**
+- To enable receipt OCR, install Python packages: `pip install pytesseract Pillow python-dateutil`
+- **Important:** You must install the Tesseract OCR engine separately:
+  - Windows: Download from https://github.com/tesseract-ocr/tesseract and add to PATH
+  - macOS: `brew install tesseract`
+  - Ubuntu/Debian: `sudo apt-get install tesseract-ocr`
 
 ---
 

@@ -41,6 +41,14 @@ A comprehensive command-line application to log, manage, and analyze your daily 
    - **Bar Chart**: Displays total spending by category
    - Requires: `pip install matplotlib`
 
+7. **Upload Receipt (OCR)**
+   - Upload an image of a receipt; the app will attempt to extract amount, date, and description automatically using OCR
+   - Requires: Tesseract OCR engine (system dependency) and `pytesseract` + `Pillow` Python packages
+
+8. **AI Auto-Tagging & Smart Suggestions**
+   - AI can suggest categories based on description and historical transactions and provides smart insights on the `AI Insights` page
+   - Toggle AI and OCR features from the sidebar (Enable/Disable as needed)
+
 ## Installation
 
 ### Prerequisites
